@@ -15,4 +15,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{"../template/todo-template":"ba0J","notiflix":"W3Ap"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/app");
 },{"./sass/main.scss":"clu1","./js/app":"QdeU"}]},{},["Focm"], null)
-//# sourceMappingURL=/ToDoList/src.d535b672.js.map
+//# sourceMappingURL=/ToDoList/src.cc9b8012.js.map
