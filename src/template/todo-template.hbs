@@ -1,0 +1,13 @@
+{{#each this}}
+    <li class="todo__list--item">
+    {{#if completed}}
+    <input value="{{description}}" class="todo__list--checkbox" type="checkbox" checked>
+    {{else}}
+    <input value="{{description}}" class="todo__list--checkbox" type="checkbox">
+    {{/if}}
+    {{description}}
+    <button class="todo--close" type="button">&#215;</button>
+     </li>
+ {{/each}}
+
+

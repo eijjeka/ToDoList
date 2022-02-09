@@ -1,29 +1,14 @@
-<article class="example">
-  <h1>HTML-фрагменты</h1>
-
-  <!-- Путь к изображениям из HTML-фрагмента такой, как из файла index.html -->
-  <img src="images/demo.jpg" alt="" width="320" />
-  <p>
-    Плагин
-    <a href="https://github.com/posthtml/posthtml-include" target="_blank" rel="noopener noreferrer">
-      posthtml-include
-    </a>
-    позволяет добавлять в HTML-файлы страниц код из других HTML-файлов (фрагментов). Фрагменты
-    хранятся в папке
-    <code>src/partials</code>. Добавление происходит при компиляции файлов страниц, например
-    <code>index.html</code>.
-  </p>
-
-  <p>
-    Этот файл <code>example.html</code> &mdash; пример такого фрагмента, с разметкой определённой
-    части главной страницы. Это очень удобно при командной разработке на студенческих проектах,
-    когда в одном HTML-файле пишет несколько человек сразу.
-  </p>
-
-  <p>
-    Синтаксис добавление фрагмента в главный файл:
-    <code> &lt;include src="./partials/имя-файла.html"&gt;&lt;/include&gt; </code>
-  </p>
-
-  <div class="background"></div>
-</article>
+<header class="todo__header"></header>
+<section class="todo__body">
+  <div class="todo__container">
+    <div class="todo__inner">
+      <h1 class=" todo__title">T O D O</h1>
+      <form class="todo__form">
+        <input class="todo__input" type="text">
+      </form>
+      <div class="todo__task">
+        <ul class="todo__list"></ul>
+      </div>
+    </div>
+  </div>
+</section>
